@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    
+    --blue-color: rgba(72, 204, 253, 1);
+    --white-color: rgb(255, 255, 255, 1);
+    --font-main:"Inter";
+    --p-font-size: clamp(1.125rem, 1.089rem + 0.18vw, 1.25rem);
+    --p-font-weight: 400;
+    --grey-color: rgba(31, 34, 41, 1);
+    --font2-tele2:"Tele2 Display Serif";
+    --section-margintop: clamp(4.5rem, 3.143rem + 6.79vw, 9.25rem);
+
+
+    /* --typography-secondary: {
+        font-family: "Tele2 TextSans Web SHORT Regular";
+        color: rgb(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 20px;
+    }; */
+  }
+  

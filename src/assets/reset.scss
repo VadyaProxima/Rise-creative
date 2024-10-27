@@ -1,0 +1,47 @@
+:root {
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgb(243, 244, 246);
+	color: $blue ;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $main-font;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+a,
+ul,
+li,
+h1,
+h2, h4,
+h3, h5,
+p,
+fieldset {
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-family: $main-font;
+}
+button {
+	all: unset;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+  

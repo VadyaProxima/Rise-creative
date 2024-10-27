@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font-url: 'https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap';
+
+@mixin text-shape {
+	padding: 0px 11px;
+	width: fit-content;
+	line-height: 23px;
+	background-color: rgba(24, 197, 118, 1);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+
+@mixin request-buy-button {
+	background-color: rgba(24, 197, 118, 1);
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 6px 29px;
+}
+@mixin button {
+	padding: 13px 30px;
+	border: 1px solid #ffffff;
+	border-radius: 40132px;
+	transition: all 0.3s ease-in;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+@mixin button-hover {
+	background-color: rgba(240, 231, 20, 1);
+	color: rgba(16, 28, 38, 1);
+}
+
+@mixin h1 {
+	font-family: $main-font;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 66px;
+	letter-spacing: 0.01em;
+	text-align: left;
+}
+@mixin h2 {
+	font-family: $main-font;
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 56px;
+	text-align: left;
+	color: $blue;
+}
+@mixin h4{
+	font-family: $main-font;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	letter-spacing: -0.011em;
+	text-align: left;
+}
+@mixin h3 {
+	font-family: $main-font;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	text-align: left;
+	color: $blue;
+}
+@mixin p {
+	font-family: $main-font;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	color: $blue;
+}
+
+$main-font: 'Gothic A1', sans-serif;
+$yellow: rgba(240, 231, 20, 1);
+$blue: rgba(16, 28, 38, 1);
+$white: rgba(243, 244, 246, 1);
+$grey: rgba(179, 179, 179, 1);
